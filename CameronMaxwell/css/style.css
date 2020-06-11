@@ -1,0 +1,781 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: lighter;
+}
+.container{
+    overflow-x: hidden;
+    width: 100%;
+    background: #0a192f;
+    height: 5300px;
+    
+    
+}
+.logo img{
+    width: 90px;
+    top: 25px;
+    left: 25px;
+    position: fixed;
+}
+.about {
+    top: 48px;
+    right: 464px;
+    color:  #8892b0;
+    position: absolute;
+    font-size: 17px;
+}
+.about:visited{
+    color: #8892b0;
+    position: absolute;
+}
+.about:hover{
+    color: #64ffda;
+}
+.aboutNumber{
+    color:#64ffda;
+    background-color: #0a192f;
+}
+.projects{
+    top: 48px;
+    right: 323px;
+    color:  #8892b0;
+    position: absolute;
+    font-size: 17px;
+}
+.projects:visited{
+    color: #8892b0;
+    position: absolute;
+}
+.projects:hover{
+    color: #64ffda;
+}
+.projectsNumber{
+    color:#64ffda;
+    background-color: #0a192f;
+}
+.contact{
+    top: 48px;
+    right: 191px;
+    color:  #8892b0;
+    position: absolute;
+    font-size: 17px;
+}
+.contact:visited{
+    color: #8892b0;
+    position: absolute;
+}
+.contact:hover{
+    color: #64ffda;
+}
+.contactNumber{
+    color:#64ffda;
+    background-color: #0a192f;
+}
+.resume{
+    top: 37px;
+    right: 73px;
+    position: absolute;
+    text-decoration-color: none;
+    font-size: 17px;
+    color: #64ffda;
+}
+.home-title{
+    width: 50%;
+}
+.home-title h1{
+    font-size: 85px;
+    width: 1200px;
+    top: 300px;
+    left: 440px;
+    position: absolute;
+    color: #ccd6f6;
+}
+.home-title h2{
+    font-size: 40px;
+    width: 800px;
+    top: 407px;
+    left: 445px;
+    position: absolute;
+    color: #8892b0;
+}
+.get-in-touch-button{
+    top: 510px;
+    left: 445px;
+    position: absolute;
+    font-size: 17px;
+    font-style:initial;
+    color: #64ffda;
+}
+.vertical-line-one {
+    width: 1px;
+    background-color:#8892b0;
+    position: fixed;
+    top:875px;
+    bottom:0;
+    left:75px;
+}
+.vertical-line-two {
+    width: 1px;
+    background-color:#8892b0;
+    position: fixed;
+    top:875px;
+    bottom:0;
+    left: 1820px;
+}
+.emaillink{
+    top: 588px;
+    left: 1815px;;
+    writing-mode: vertical-rl;
+    color: #8892b0;
+    position: fixed;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-style: normal;
+}
+.emaillink:hover{
+    color: #64ffda;
+}
+.emaillink:visited{
+    color: #8892b0;
+    position: fixed;
+}
+.linkedinLogo img{
+    width: 30px;
+    top: 830px;
+    left: 63px;
+    position: fixed;
+}
+
+.githubLogo img{
+    width: 40px;
+    top: 795px;
+    left: 57px;
+    position: fixed;
+}
+.aboutAnchor{
+    color: #0a192f;
+    top: 848px;
+    left: 200px;
+    position: absolute;
+}
+.aboutMe{
+    top: 1125px;
+    left: 445px;
+    color: #ccd6f6;
+    position: absolute;
+    font-size: 27px;
+}
+.aboutMeNumber{
+    color:#64ffda;
+    background-color: #0a192f;
+    font-size: 25px;
+}
+.aboutHR{
+    background-color: #8892b0; height: 0.1px; border: 0;
+}
+.aboutMeParagraph{
+    top: 1180px;
+    left: 445px;
+    color: #8892b0;
+    position:absolute;
+    font-size: 17px;
+}
+.westernLink:visited{
+    color: #64ffda;
+}
+.westernColor{
+    color: #64ffda;
+    background-color: #0a192f;
+}
+.aboutMeParagraph2{
+    top: 1245px;
+    left: 445px;
+    color: #8892b0;
+    position:absolute;
+    font-size: 17px;
+}
+.aboutMeParagraph3{
+    top: 1352px;
+    left: 445px;
+    color: #8892b0;
+    position:absolute;
+    font-size: 17px;
+}
+.java{
+    top: 1404px;
+    left: 725px;
+    color: #8892b0;
+    position:absolute;
+    font-size: 15px;
+}
+.python{
+    top: 1404px;
+    left: 470px;
+    color: #8892b0;
+    position:absolute;
+    font-size: 15px;
+}
+.c{
+    top: 1434px;
+    left: 470px;
+    color: #8892b0;
+    position:absolute;
+    font-size: 15px;
+}
+.assembly{
+    top: 1434px;
+    left: 725px;
+    color: #8892b0;
+    position:absolute;
+    font-size: 15px;
+}
+.html{
+    top: 1464px;
+    left: 470px;
+    color: #8892b0;
+    position:absolute;
+    font-size: 15px; 
+}
+.css{
+    top: 1464px;
+    left: 725px;
+    color: #8892b0;
+    position:absolute;
+    font-size: 15px;
+}
+.triangle1 img{
+    width: 20px;
+    top: 1400px;
+    left: 445px;
+    position: absolute;
+}
+.triangle2 img{
+    width: 20px;
+    top: 1430px;
+    left: 445px;
+    position: absolute;
+}
+.triangle3 img{
+    width: 20px;
+    top: 1460px;
+    left: 445px;
+    position: absolute;
+}
+.triangle4 img{
+    width: 20px;
+    top: 1400px;
+    left: 700px;
+    position: absolute;
+}
+.triangle5 img{
+    width: 20px;
+    top: 1430px;
+    left: 700px;
+    position: absolute;
+}
+.triangle6 img{
+    width: 20px;
+    top: 1460px;
+    left: 700px;
+    position: absolute;
+}
+.projectsAnchor{
+    color: #0a192f;
+    top: 1800px;
+    left: 200px;
+    position: absolute;
+}
+.projectsPage{
+    top: 1850px;
+    left: 445px;
+    color: #ccd6f6;
+    position: absolute;
+    font-size: 27px;
+}
+.projectsPageNumber{
+    color:#64ffda;
+    background-color: #0a192f;
+    font-size: 25px;
+}
+.projectsHR{
+    background-color: #8892b0; height: 0.1px; border: 0;
+}
+.websiteHomeImage img{
+    width: 600px;
+    top: 1950px;
+    left: 445px;
+    position: absolute;
+    border-color: #64ffda;
+}
+.websiteDescriptionBox{
+    top: 2040px;
+    left: 950px;
+    position: absolute;
+    background-color: #172a45;
+    width: 480px;
+    height: 110px;
+}
+.websiteDescription{
+    top: 2050px;
+    left: 968px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.featuredProjectWebsite{
+    top: 1973px;
+    left: 1289px;
+    color: #64ffda;
+    font-size: 16px;
+    position: absolute;
+}
+.websiteTitle{
+    top: 1998px;
+    left: 1179px;
+    color: #ccd6f6;
+    font-size: 27px;
+    position: absolute
+}
+.htmlCssProject{
+    top: 2162px;
+    left: 1352px;
+    word-spacing: 12px;
+    color: #8892b0;
+    font-size: 15px;
+    position: absolute
+}
+.githubLogoProject1 img{
+    width: 60px;
+    top: 2190px;
+    left: 1385px;
+    position: absolute;
+}
+.snakeGameImage img{
+    width: 600px;
+    top: 2375px;
+    left: 825px;
+    position: absolute;
+    border-color: #64ffda;
+}
+.snakeGameDescriptionBox{
+    top: 2473px;
+    left: 445px;
+    position: absolute;
+    background-color: #172a45;
+    width: 480px;
+    height: 110px;
+}
+.snakeGameDescription{
+    top: 2484px;
+    left: 465px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.featuredProjectSnakeGame{
+    top: 2408px;
+    left: 445px;
+    color: #64ffda;
+    font-size: 16px;
+    position: absolute;
+}
+.snakeGameTitle{
+    top: 2432px;
+    left: 445px;
+    color: #ccd6f6;
+    font-size: 27px;
+    position: absolute
+}
+.javaProject{
+    top: 2593px;
+    left: 445px;
+    color: #8892b0;
+    font-size: 15px;
+    position: absolute;
+}
+.githubLogoProject2 img{
+    width: 60px;
+    top: 2621px;
+    left: 430px;
+    position: absolute;
+}
+.tweetAnalysisImage img{
+    width: 600px;
+    top: 2800px;
+    left: 445px;
+    position: absolute;
+    border-color: #64ffda;
+}
+.tweetAnalysisDescriptionBox{
+    top: 2890px;
+    left: 950px;
+    position: absolute;
+    background-color: #172a45;
+    width: 480px;
+    height: 110px;
+}
+.tweetAnalysisDescription{
+    top: 2900px;
+    left: 968px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.featuredProjectTweetAnalysis{
+    top: 2823px;
+    left: 1289px;
+    color: #64ffda;
+    font-size: 16px;
+    position: absolute;
+}
+.tweetAnalysisTitle{
+    top: 2848px;
+    left: 1210px;
+    color: #ccd6f6;
+    font-size: 27px;
+    position: absolute
+}
+.pythonProject{
+    top: 3012px;
+    left: 1380px;
+    word-spacing: 12px;
+    color: #8892b0;
+    font-size: 15px;
+    position: absolute
+}
+.githubLogoProject3 img{
+    width: 60px;
+    top: 3040px;
+    left: 1385px;
+    position: absolute;
+}
+.projectsHR1{
+    background-color: #8892b0; height: 0.1px; border: 0;
+}
+.projectsHR2{
+    background-color: #8892b0; height: 0.1px; border: 0;
+}
+.moreProjects{
+    top: 3425px;
+    left: 857px;
+    color: #ccd6f6;
+    font-size: 27px;
+    position: absolute
+}
+.moreProjectsBox1{
+    top: 3500px;
+    left: 475px;
+    position: absolute;
+    background-color: #172a45;
+    width: 300px;
+    height: 300px;
+}
+.moreProjectsBox2{
+    top: 3500px;
+    left: 800px;
+    position: absolute;
+    background-color: #172a45;
+    width: 300px;
+    height: 300px;
+}
+.moreProjectsBox3{
+    top: 3500px;
+    left: 1125px;
+    position: absolute;
+    background-color: #172a45;
+    width: 300px;
+    height: 300px;
+}
+.moreProjectsBox4{
+    top: 3825px;
+    left: 475px;
+    position: absolute;
+    background-color: #172a45;
+    width: 300px;
+    height: 300px;
+}
+.moreProjectsBox5{
+    top: 3825px;
+    left: 800px;
+    position: absolute;
+    background-color: #172a45;
+    width: 300px;
+    height: 300px;
+}
+.moreProjectsBox6{
+    top: 3825px;
+    left: 1125px;
+    position: absolute;
+    background-color: #172a45;
+    width: 300px;
+    height: 300px;
+}
+.moreProjectsFolder1 img{
+    width: 50px;
+    top: 3515px;
+    left: 490px;
+    position: absolute;
+}
+.moreProjectsFolder2 img{
+    width: 50px;
+    top: 3515px;
+    left: 815px;
+    position: absolute;
+}
+.moreProjectsFolder3 img{
+    width: 50px;
+    top: 3515px;
+    left: 1140px;
+    position: absolute;
+}
+.moreProjectsFolder4 img{
+    width: 50px;
+    top: 3840px;
+    left: 490px;
+    position: absolute;
+}
+.moreProjectsFolder5 img{
+    width: 50px;
+    top: 3840px;
+    left: 815px;
+    position: absolute;
+}
+.moreProjectsFolder6 img{
+    width: 50px;
+    top: 3840px;
+    left: 1140px;
+    position: absolute;
+}
+.moreProjectsTitle1{
+    top: 3575px;
+    left: 490px;
+    color: #ccd6f6;
+    font-size: 23px;
+    position: absolute 
+}
+.moreProjectsTitle2{
+    top: 3575px;
+    left: 815px;
+    color: #ccd6f6;
+    font-size: 23px;
+    position: absolute 
+}
+.moreProjectsTitle3{
+    top: 3575px;
+    left: 1140px;
+    color: #ccd6f6;
+    font-size: 23px;
+    position: absolute 
+}
+.moreProjectsTitle4{
+    top: 3900px;
+    left: 490px;
+    color: #ccd6f6;
+    font-size: 23px;
+    position: absolute 
+}
+.moreProjectsTitle5{
+    top: 3900px;
+    left: 815px;
+    color: #ccd6f6;
+    font-size: 23px;
+    position: absolute 
+}
+.moreProjectsTitle6{
+    top: 3900px;
+    left: 1140px;
+    color: #ccd6f6;
+    font-size: 23px;
+    position: absolute 
+}
+.moreProjectsGithub1 img{
+    width: 60px;
+    top: 3525px;
+    left: 710px;
+    position: absolute;
+}
+.moreProjectsGithub2 img{
+    width: 60px;
+    top: 3525px;
+    left: 1035px;
+    position: absolute;
+}
+.moreProjectsGithub3 img{
+    width: 60px;
+    top: 3525px;
+    left: 1360px;
+    position: absolute;
+}
+.moreProjectsGithub4 img{
+    width: 60px;
+    top: 3850px;
+    left: 710px;
+    position: absolute;
+}
+.moreProjectsGithub5 img{
+    width: 60px;
+    top: 3850px;
+    left: 1035px;
+    position: absolute;
+}
+.moreProjectsGithub6 img{
+    width: 60px;
+    top: 3850px;
+    left: 1360px;
+    position: absolute;
+}
+.moreProjectsBody1{
+    top: 3615px;
+    left: 490px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.moreProjectsBody2{
+    top: 3640px;
+    left: 815px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.moreProjectsBody3{
+    top: 3615px;
+    left: 1140px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5; 
+}
+.moreProjectsBody4{
+    top: 3940px;
+    left: 490px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.moreProjectsBody5{
+    top: 3940px;
+    left: 815px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5
+}
+.moreProjectsBody6{
+    top: 3940px;
+    left: 1140px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5
+}
+.moreProjectsLanguage1{
+    top: 3765px;
+    left: 490px;
+    color: #64ffda;
+    font-size: 15px;
+    position: absolute;
+}
+.moreProjectsLanguage2{
+    top: 3765px;
+    left: 815px;
+    color: #64ffda;
+    font-size: 15px;
+    position: absolute;
+}
+.moreProjectsLanguage3{
+    top: 3765px;
+    left: 1140px;
+    color: #64ffda;
+    font-size: 15px;
+    position: absolute;
+}
+.moreProjectsLanguage4{
+    top: 4090px;
+    left: 490px;
+    color: #64ffda;
+    font-size: 15px;
+    position: absolute;
+}
+.moreProjectsLanguage5{
+    top: 4090px;
+    left: 815px;
+    color: #64ffda;
+    font-size: 15px;
+    position: absolute;
+}
+.moreProjectsLanguage6{
+    top: 4090px;
+    left: 1140px;
+    color: #64ffda;
+    font-size: 15px;
+    position: absolute;
+}
+.contactAnchor{
+    color: #0a192f;
+    top: 5000px;
+    left: 200px;
+    position: absolute;
+}
+.contactHR1{
+    background-color: #8892b0; height: 0.1px; border: 0;
+}
+.contactHR2{
+    background-color: #8892b0; height: 0.1px; border: 0;
+}
+.contactMe{
+    top: 4550px;
+    left: 863px;
+    color: #64ffda;
+    position: absolute;
+    font-size: 27px;
+}
+.contactMeNumber{
+    font-size: 25px;
+    color: #64ffda;
+    background-color: #0a192f;
+}
+.getInTouch{
+    top: 4605px;
+    left: 749px;
+    color: #ccd6f6;
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold !important;
+}
+.contactBody{
+    top: 4700px;
+    left: 716px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 17px;
+}
+.contactBody2{
+    top: 4725px;
+    left: 780px;
+    color: #a8b2d1;
+    position: absolute;
+    font-size: 17px;
+}
+.sendMessage{
+    top: 4800px;
+    left: 860px;
+    position: absolute;
+    font-size: 17px;
+    font-style:initial;
+    color: #64ffda;
+}
+.finalStatement{
+    top: 5240px;
+    left: 800px;
+    color: #8892b0;
+    position: absolute;
+    font-size: 15px;
+}
